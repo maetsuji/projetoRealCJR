@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tela de Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script>
+        function mostrarSenha() {
+          var passwordInput = document.getElementById("password");
+          var passwordToggle = document.getElementById("password-toggle");
+    
+          if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            passwordToggle.textContent = "Ocultar";
+          } else {
+            passwordInput.type = "password";
+            passwordToggle.textContent = "Mostrar";
+          }
+        }
+      </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div class="box">
+            </div>
+            <div class="cjr">
+                <img src="C:\Users\CLIENTE\Desktop\beecrowd\LOGIN\logo-cjr.png" alt="Logo">
+            </div>
+        </div>
+        <div class="entradas">
+            <div class="criarconta">
+                <a href="../conta/criarConta.html">Criar Conta</a>
+            </div>
+            <div class="entrabox">
+            </div>
+            <div class="entrar"
+                <a href="../Login/login.html">Entrar</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form action="/login" method="post">
+                <label for="registration">Login:</label>
+                <input type="text" id="registration" name="registration" required><br><br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <button id="password-toggle" onclick="mostrarSenha()">Mostrar</button>
+                <p><a href="../senha/esqueceuSenha.html">Esqueceu a senha?</a></p>
+                <input type="submit" value="Entrar">
+            </form>
+    
+        </div>
+    </main>
+</body>
+</html>

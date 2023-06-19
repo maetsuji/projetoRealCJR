@@ -1,0 +1,208 @@
+
+
+/* Fundo Header */
+
+
+
+    /* Fundo */
+
+header {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1920px;
+    height: 86px;
+    left: -10px;
+    top: -10px;
+    background: #8BC34A;
+    
+}
+
+/*
+body {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #111E3E;
+    /*border: 1px solid #000000;*/
+
+
+
+/* cjr */
+
+/* LOGO DA CJR NO CANTO*/
+
+.box {
+    position: absolute;
+    width: 124px;
+    height: 44px;
+    left: 45px;
+    top: 25px;
+    background: #D9D9D9;
+    border-radius: 16px;
+
+}
+.cjr {
+    position: absolute;
+    left: 80px;
+    top: 30px;
+}
+
+/*
+.container {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 32px;
+    top: 90px;
+}
+*/
+.criarconta {
+    position: absolute;
+    left: 82.78%;
+    right: 10.97%;
+    top: 39.53%;
+    bottom: 38.37%;
+
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222E50;
+
+}
+
+.entrar {
+
+position: absolute;
+left: 22.83%;
+right: 23.91%;
+top: 31.25%;
+bottom: 29.17%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo básico para o corpo da página */
+  body {
+    font-family: Inter, sans-serif;
+    background-color: #111E3E;
+    width: 1500px;
+    height: 605px;
+    left: 446px;
+    top: 227px;
+
+
+}
+
+/* Estilo palavra LOGIN */
+.container label[for="registration"] {
+    position: absolute;
+    width: 44px;
+    height: 19px;
+    left: 570px;
+    top: 290px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #71767b;
+    opacity: 0.7;
+  }
+
+/* Estilo palavra SENHA */
+  .container label[for="password"] {
+    position: absolute;
+    width: 44px;
+    height: 19px;
+    left: 570px;
+    top: 360px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #71767b;
+    opacity: 0.7;
+  }
+     
+  /* Estilo dos campos de entrada Login */
+  .container input[type="text"] {
+    position: absolute;
+    width: 360px; /* ja foi */
+    height: 22px;
+    padding: 10px; /* ja foi */
+    left: 570px; /* ja foi */
+    top: 312px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+      
+  /* Estilo dos campos de entrada SENHA */
+  .container input[type="password"] {
+    position: absolute;
+    width: 360px;
+    height: 22px;
+    padding: 10px; 
+    height: 22px;
+    left: 570px;
+    top: 380px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  /* Estilo do botão de entrar */
+  .container input[type="submit"]{
+    position: absolute;
+    width: 260px;
+    height: 50px;
+    left: 620px;
+    top: 500px;
+    padding: 20px; 
+    background-color: #D9D9D9;
+    border-radius: 15px;
+  }
+  /* Estilo do contêiner do formulário de login */
+  .container {
+    width: 500px;
+    height: 470px;
+    top: 227px;
+    margin: 100px auto;
+    background-color: #222E50;
+    border-radius: 11px;
+  }
+
+  /* Estilo do botão de mostrar */
+  .container button {
+    
+    width: 88px;
+    height: 20px;
+    padding: 20px;
+    top: 300px;
+    left: 40px;
+    right: 48px;
+    background-color: #7b1f1f;
+    color: #fff;
+    border-radius: 4px;
+    
+  }
