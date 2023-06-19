@@ -1,113 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
-/* Fundo Header */
-
-
-
-    /* Fundo */
+/* inicio do header*/
 
 header {
-    box-sizing: border-box;
-    position: absolute;
-    width: 1920px;
-    height: 86px;
-    left: -10px;
-    top: -10px;
     background: #8BC34A;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.cjr {
+  background-color: #D9D9D9;
+  padding: 4px 32px 4px 32px;
+  border-radius: 16px;
+}
+
+.entradas {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
     
 }
 
-/*
-body {
-    box-sizing: border-box;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    background: #111E3E;
-    /*border: 1px solid #000000;*/
-
-
-
-/* cjr */
-
-/* LOGO DA CJR NO CANTO*/
-
-.box {
-    position: absolute;
-    width: 124px;
-    height: 44px;
-    left: 45px;
-    top: 25px;
-    background: #D9D9D9;
-    border-radius: 16px;
-
-}
-.cjr {
-    position: absolute;
-    left: 80px;
-    top: 30px;
-}
-
-/*
-.container {
-    position: absolute;
-    width: 60px;
-    height: 50px;
-    left: 32px;
-    top: 90px;
-}
-*/
-.criarconta {
-    position: absolute;
-    left: 82.78%;
-    right: 10.97%;
-    top: 39.53%;
-    bottom: 38.37%;
-
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #222E50;
-
-}
-
-.entrar {
-
-position: absolute;
-left: 22.83%;
-right: 23.91%;
-top: 31.25%;
-bottom: 29.17%;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-
-color: #FFFFFF;
-
-
-}
+/* inicio do body */
 
 body, html {
     margin: 0;
     padding: 0;
-  }
+}
   
-  /* Estilo básico para o corpo da página */
-  body {
+    /* Estilo básico para o corpo da página */
+    body {
     font-family: Inter, sans-serif;
     background-color: #111E3E;
-    width: 1500px;
-    height: 605px;
-    left: 446px;
-    top: 227px;
 
 
 }
